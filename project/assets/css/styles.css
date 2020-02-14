@@ -5,7 +5,19 @@
     justify-content: center;
     align-items: center;
     background-color: #f9f9f9;
+    flex-direction: column;
 }
 .baseLogin .card{
     width: 50vw;
+}
+.dashboard{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+.headDash{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 0;
 }

@@ -28,7 +28,7 @@
                 <div class="row">
                     <div class="input-field col s12">
                         <i class="material-icons prefix">mail</i>
-                        <input id="email" type="text" class="validate" name="email" autocomplete="false">
+                        <input id="email" type="email" class="validate" name="email" autocomplete="false">
                         <label for="email">E-mail</label>
                     </div>
                 </div>

@@ -36,6 +36,10 @@ class Database {
 		return $this->pdo->execute($array);
 	}
 
+	public function lastInsertId() {
+		return $this->pdo->lastInsertId();
+	}
+
 
 
 
